@@ -1,0 +1,47 @@
+#span {
+	display: block;
+	font-size: 18px;
+}
+
+#input {
+	display: none;
+	font-size: 18px;
+	text-decoration-style: solid;
+	font-style: italic;
+}
+
+#window-width {
+	font-size: 18px;
+}
+
+#task3 {
+	width: 400px;
+	font-size: 18px;
+	text-decoration-style: solid;
+	font-style: italic;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	overflow: auto;
+}
+
+.modal-content {
+	background-color: grey;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 400px;
+	color: white;
+	border-radius: 5px;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
